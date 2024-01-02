@@ -64,39 +64,9 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  News
-                </Link>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link className="dropdown-item" href="#">
-                      Ideathon
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" href="#">
-                      Hackathon
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" href="#">
-                      Sessions
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" href="#">
-                      Workshops
-                    </Link>
-                  </li>
-                </ul>
-              </li>
+              <Link className="nav-link" href="#">
+                Blogs
+              </Link>
               <li className="nav-item">
                 <Link className="nav-link" href="#">
                   Sponsors & Partners
