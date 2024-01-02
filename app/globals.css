@@ -1,0 +1,32 @@
+body {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  background-attachment: fixed;
+  color: #f7f8f9 !important;
+}
+.navbar,
+.nav-link,
+.navbar-brand {
+  color: #f7f8f9 !important;
+}
+/* input{
+  background: transparent!important;
+} */
+.addheight {
+  min-height: 70vh;
+}
+.makecenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown-menu {
+  background: #414141 !important;
+  border: 1px solid #f7f8f9 !important;
+}
+.dropdown-item {
+  color: #f7f8f9 !important;
+}
+.dropdown-item:hover {
+  background-color: black !important;
+}
