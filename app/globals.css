@@ -1,4 +1,6 @@
-body {
+/* Root CSS Dont Change This */
+body,
+.navbar {
   background-color: #000000;
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   background-attachment: fixed;
@@ -30,3 +32,10 @@ body {
 .dropdown-item:hover {
   background-color: black !important;
 }
+
+/* Dipak */
+.about-container {
+  color: red;
+}
+
+/* Sahil */

@@ -3,9 +3,12 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg text-center" bs-data-theme="dark">
+      <nav
+        className="navbar navbar-expand-lg fixed-top text-center"
+        bs-data-theme="dark"
+      >
         <div className="container-fluid">
-          <Link className="navbar-brand" href="#">
+          <Link className="navbar-brand" href="/">
             Bolt Corps
           </Link>
           <button
@@ -22,12 +25,12 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" href="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" href="/About">
                   About
                 </Link>
               </li>
@@ -43,37 +46,37 @@ const Navbar = () => {
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/Events/Ideathon">
                       Ideathon
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/Events/Hackathon">
                       Hackathon
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/Events/Sessions">
                       Sessions
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/Events/Workshops">
                       Workshops
                     </Link>
                   </li>
                 </ul>
               </li>
-              <Link className="nav-link" href="#">
+              <Link className="nav-link" href="/Blogs">
                 Blogs
               </Link>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" href="/Sponsors">
                   Sponsors & Partners
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" href="/Contact">
                   Contact
                 </Link>
               </li>
@@ -89,14 +92,14 @@ const Navbar = () => {
                 </button>
               </form> */}
               &nbsp;&nbsp;
-              <li className="nav-item">
-                <Link className="btn btn-outline-success" href="#">
+              {/* <li className="nav-item">
+                <Link className="btn btn-outline-success" href="/">
                   Host
                 </Link>
-              </li>
-              &nbsp;&nbsp;
+              </li> */}
+              {/* &nbsp;&nbsp; */}
               <li className="nav-item">
-                <Link className="btn btn-outline-warning" href="#">
+                <Link className="btn btn-outline-warning" href="/Login">
                   Login
                 </Link>
               </li>
